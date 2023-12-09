@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:elevation="4dp"
+    android:radius="8dp"> <!-- Corner radius for the card -->
+
+    <!-- Content inside the card -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"> <!-- Padding inside the card -->
+
+        <!-- EditText for Name -->
+        <EditText
+            android:id="@+id/editNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom"
+            android:inputType="text"/>
+
+        <!-- EditText for Alias -->
+        <EditText
+            android:id="@+id/editAlias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alias"
+            android:inputType="text"/>
+
+        <!-- EditText for Description -->
+        <EditText
+            android:id="@+id/editDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="text"/>
+
+        <!-- EditText for Powers -->
+        <EditText
+            android:id="@+id/editPouvoirs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pouvoirs"
+            android:inputType="text"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

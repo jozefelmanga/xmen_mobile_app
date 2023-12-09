@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191302188826",
+    "project_id": "x-men-44819",
+    "storage_bucket": "x-men-44819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191302188826:android:516da54bd7be2e271e76a3",
+        "android_client_info": {
+          "package_name": "com.example.xmen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw1Z9nvVRywS7agikIhW_YiZoV4quUoms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191302188826:android:0fb62758adc1accd1e76a3",
+        "android_client_info": {
+          "package_name": "com.example.xmen_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw1Z9nvVRywS7agikIhW_YiZoV4quUoms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
